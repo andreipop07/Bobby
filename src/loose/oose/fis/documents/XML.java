@@ -3,10 +3,13 @@ package loose.oose.fis.documents;
 import java.util.Arrays;
 
 public class XML extends Document {
+
     public XML(String[] continut) {
         super(continut);
     }
-
+    public void nimic(){
+        System.out.println("Da");
+    }
     @Override
     public String[] analizeaza() {
         String[] res = new String[continut.length];
